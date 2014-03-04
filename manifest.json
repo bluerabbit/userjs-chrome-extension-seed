@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "userjs-chrome-extension-seed",
+  "version": "0.0.1",
+  "description": "userjs的な事しかしないchrome-extensionを作る時のひな形",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["build/vendor.js", "build/all.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
