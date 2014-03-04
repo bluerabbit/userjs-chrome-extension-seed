@@ -1,7 +1,11 @@
 userjs-chrome-extension-seed
 ================================
 
+## Build
+
 ```
 npm install
-grunt
+bower install
+grunt build
+grunt test
 ```
